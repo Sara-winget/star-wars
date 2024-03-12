@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .heroes,
+  .villains {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  
+  .scores {
+    text-align: center;
+    font-size: large;
+  }
+  
+  .player {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+  
+  .player img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .player .details {
+    text-align: center;
+  }
+  
+  .heroes {
+    justify-content: flex-end;
+    display: flex;
+  }
+  
+  .villains {
+    justify-content: flex-start;
+    display: flex;
+  }
+  
+  .footer {
+    margin-left: 80px;
+    font-size: 18px;
+  }
+  
+  h2 {
+    font-size: xx-large;
+  }
